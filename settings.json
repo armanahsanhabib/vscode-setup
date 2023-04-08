@@ -1,0 +1,70 @@
+{
+  // editor setup
+  "workbench.startupEditor": "none",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.fontSize": 14,
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true, //combine multiple characters into a single unique character
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+
+  // code formatting
+  "emmet.triggerExpansionOnTab": true, // Emmet abbr. expand when press 'Tab'
+  "editor.formatOnSave": true, // Format code when press 'ctrl + s'
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  // EsLint Config
+  "eslint.alwaysShowStatus": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+
+  //Sass config
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/src/assets/css"
+    }
+  ],
+
+  //terminal
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.rightClickBehavior": "default",
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.accessibilitySupport": "off",
+  "code-runner.runInTerminal": true,
+  "editor.inlineSuggest.enabled": true
+}
